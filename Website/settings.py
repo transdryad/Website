@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'Portfolio.apps.PortfolioConfig',
     'Projects.apps.ProjectsConfig',
     'Home.apps.HomeConfig',
+    'METAR.apps.MetarConfig',
 ]
 
 MIDDLEWARE = [

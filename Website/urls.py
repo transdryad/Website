@@ -24,4 +24,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path("portfolio/", include('Portfolio.urls')),
     path("projects/", include("Projects.urls")),
+    path("metar/", include("METAR.urls"))
 ]
